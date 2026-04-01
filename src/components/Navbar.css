@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+    color: rgb(23, 22, 22);
+}
+.nav-items{
+    display: flex;
+    gap: 20px;
+}
+.nav-items  button{
+    height: 40px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 21px;
+}
+.nav-items  button:hover{
+    background-color:skyblue ;
+    color: white;
+    font-size: 21px;
+}
+.logo{
+    font-size:30px;
+    font-weight: 900;
+}
